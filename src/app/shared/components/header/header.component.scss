@@ -1,0 +1,63 @@
+#header{
+  width: 100%;
+  height: 50px;
+  padding: 1rem;
+  display: flex;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: space-around;
+  background: #fff;
+  position: sticky;
+
+  .research-bar {
+    width: 490px;
+    border: 1px solid #9ea8b7;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    input {
+      padding: .5rem;
+      width: 90%;
+      border: none;
+      outline: none;
+      height: 100%;
+      border-radius: 30px;
+    }
+    i {
+      margin-left: 10px;
+      font-size: 24px;
+    }
+  }
+  .shoping {
+    font-size: 24px;
+    color: rgb(240, 0, 0);
+    position: relative;
+  }
+
+  .shoping::after {
+    content: "0";
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 18px;
+    height: 20px;
+    font-size: 6px;
+    background: #000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+  }
+  p {
+    margin-top: .8rem;
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  img {
+    width: auto;
+    height: 70px;
+  }
+}
