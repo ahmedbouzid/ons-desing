@@ -3,24 +3,20 @@ import { ButtonModule } from 'primeng/button';
 import { SidebarModule } from 'primeng/sidebar';
 import { DividerModule } from 'primeng/divider';
 import { AccordionModule } from 'primeng/accordion';
-import { TableModule } from 'primeng/table';
 import { PanelModule } from 'primeng/panel';
 import { MenubarModule } from 'primeng/menubar';
 import { InputTextModule } from 'primeng/inputtext';
-import { CalendarModule } from 'primeng/calendar';
 import { PasswordModule } from 'primeng/password';
 import { CardModule } from 'primeng/card';
 import { ProgressBarModule } from 'primeng/progressbar';
 import { ToastModule } from 'primeng/toast';
 import { ConfirmDialogModule } from 'primeng/confirmdialog';
 import { BadgeModule } from 'primeng/badge';
-import { DropdownModule } from 'primeng/dropdown';
 import { DialogModule } from 'primeng/dialog';
 import { ConfirmPopupModule } from 'primeng/confirmpopup';
 import { ProgressSpinnerModule } from 'primeng/progressspinner';
 import { InputSwitchModule } from 'primeng/inputswitch';
 import { SliderModule } from 'primeng/slider';
-import { InputNumberModule } from 'primeng/inputnumber';
 import { AvatarModule } from 'primeng/avatar';
 import { MenuModule } from 'primeng/menu';
 import { DynamicDialogModule } from 'primeng/dynamicdialog';
@@ -40,24 +36,20 @@ import { TabViewModule } from 'primeng/tabview';
     SidebarModule,
     DividerModule,
     AccordionModule,
-    TableModule,
     PanelModule,
     MenubarModule,
     InputTextModule,
-    CalendarModule,
     PasswordModule,
     CardModule,
     ProgressBarModule,
     ToastModule,
     ConfirmDialogModule,
     BadgeModule,
-    DropdownModule,
     DialogModule,
     ConfirmPopupModule,
     ProgressSpinnerModule,
     InputSwitchModule,
     SliderModule,
-    InputNumberModule,
     AvatarModule,
     MenuModule,
     DynamicDialogModule,
