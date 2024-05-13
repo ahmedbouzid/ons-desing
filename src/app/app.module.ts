@@ -14,7 +14,6 @@ import { LandingPageModule } from './landing-page/landing-page.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    PrimeNgModule,
     SharedModule,
     LandingPageModule
   ],

@@ -1,12 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { IndexrComponent } from './page/indexr/indexr.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    IndexrComponent
+  ],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule
+  ],
+  exports :[
+    IndexrComponent,
   ]
 })
 export class LandingPageModule { }

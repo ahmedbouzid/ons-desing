@@ -1,0 +1,30 @@
+<p-button label="Submit" (click)="showDialog()" />
+<p-dialog  [(visible)]="visible" [style]="{width: '470px' , height: '800px'}">
+<h2 class="text-center"> S'inscrire</h2>
+<p class="text-center">Passez votre temps libre à étudier </p>
+<p class="text-center">avec les Meilleurs instructeurs</p>
+<div class="user-login">
+  <div class="user-group mb-2">
+    <label htmlFor="username"> NOM COMPLETE</label>
+    <input pInputText id="username" aria-describedby="username-help" [(ngModel)]="userName" placeholder="Saise votre Propre Nom "/>
+  </div>
+  <div class="user-group mb-2">
+    <label htmlFor="username"> ADRESSE E-MAIL</label>
+    <input pInputText id="username" aria-describedby="username-help" [(ngModel)]="userName" placeholder="user@gmail.com"/>
+  </div>
+
+  <div class="user-group">
+    <label htmlFor="username">MOT DE PASS</label>
+    <input pInputText id="username" aria-describedby="username-help" [(ngModel)]="userName" placeholder="Créer Vote Mots de pass"/>
+    <small id="username-help">Mots de pass oublier?</small>
+  </div>
+  <button class="login-btn">Inscriver Vous</button>
+  <p class="text-center mt-1">Ou</p>
+
+  <div class="social-media-login">
+    <button><img src="../../../../../assets/images/google.png" alt="" >Contenue Avec Google</button>
+    <button><img src="../../../../../assets/images/facebook.png" alt="" >Contenue Avec Facebook</button>
+  </div>
+  <small>Vous avez deja un Compte ? Se connecter</small>
+</div>
+</p-dialog>
